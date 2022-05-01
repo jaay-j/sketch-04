@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fourth Sketch</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="javascript/p5.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <script src="javascript/sketch-04.js"></script>
+
+    <h1>Sketch 4</h1>
+    <p> What I made with p5 -- Day 4! </p>
+    <br><br>
+    <img src="img/sketch-04.png">
+
+    <div id="container">
+
+    <h3>
+        
+        var width = 1000; <br>
+    var height = 1000; <br><br>
+
+    function setup(){ <br>
+    createCanvas(1000, 1000);<br>
+    background(300, 180, 10);<br>
+    angleMode(DEGREES); <br><br>
+
+    var i = 0; <br>
+    while (i < 1000) { <br>
+    translate(0, -10); <br>
+    fill(149, 149, 237); <br>
+    stroke(100, 100, 232); <br>
+    strokeWeight(2); <br>
+    ellipse(500, 130 * i, 750, 100*i); <br>
+    i = i + 0.2; <br>
+    } <br>
+}<br><br>
+
+function draw() { <br>
+    noFill(); <br>
+    stroke(300, 180, 10); <br>
+    strokeWeight(50); <br>
+    line (120, 0, 870, 1000); <br>
+} <br>
+        
+    </h3>
+
+        </div>
+
+
+        <a href="https://jaay-j.github.io/sketch_main" style="font-size:30px; margin:40%; color: rgb(145, 35, 189);"> BACK TO MENU </a> 
+
+        </body>
+        </html>
